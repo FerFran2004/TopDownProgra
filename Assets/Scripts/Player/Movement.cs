@@ -134,6 +134,9 @@ public class Movement : MonoBehaviour
     if (collision.gameObject.tag == "EnemyShootBullet")
     {
       EnemyShootBullet = GameObject.FindWithTag("EnemyShootBullet");
+      gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+    //  Debug.Log("CHANGE BODYTYPE");
+      gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
       int EnemyShootBulletDamage = EnemyShootBullet.GetComponent<EnemyShootBullet>().Damage;
       Health -= EnemyShootBulletDamage;
       if (Health <= 0)

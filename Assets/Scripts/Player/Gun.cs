@@ -22,8 +22,8 @@ public class Gun : MonoBehaviour
     
     void Update()
     {
-        Debug.Log("MY ENERGY:" + Energy);
-        Debug.Log("FIRERATE:" + FireRate);
+       // Debug.Log("MY ENERGY:" + Energy);
+       // Debug.Log("FIRERATE:" + FireRate);
 
        if (FireRate == 0) //Si el arma es automatica, no hay retardo entre bala y bala...
         {
@@ -55,11 +55,21 @@ public class Gun : MonoBehaviour
 
        else //Si existe un retardo entre bala y bala...
        {
+            //if (gameObject.name == "GunWeapon (1)")
+            //{
+            //    Debug.Log(gameObject.name);
+            //
+            //}
+            //if (gameObject.name == "GunWeapon")
+            //{
+            //    Debug.Log(gameObject.name);
+            //}
             if (Input.GetKey(KeyCode.Mouse1) && ReadytoFire > FireRate)
             {
                 if (Energy > 0)
                 {
                     GameObject bullet = Instantiate(bulletHolder, ShootPoint.position, ShootPoint.rotation);
+                    Debug.Log(gameObject.name);
                     bullet.GetComponent<Rigidbody2D>().AddForce(ShootPoint.up * ShootForce, ForceMode2D.Impulse);
                     Energy -= 1;
                     ReadytoFire = 0;

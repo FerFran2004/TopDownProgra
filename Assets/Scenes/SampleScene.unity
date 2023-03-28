@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9064477}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.83644325, y: -0.20681834, z: -5.9074783}
+  m_LocalPosition: {x: -15.93, y: 8.7, z: -5.9074783}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -225,7 +225,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &18930265
 SpriteRenderer:
@@ -318,7 +325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109613489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 15.83, y: -8.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -716,7 +723,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &518916436
 SpriteRenderer:
@@ -1113,7 +1127,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550156540}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1140,7 +1154,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &550156544
 SpriteRenderer:
@@ -1313,7 +1334,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &621974292
 SpriteRenderer:
@@ -1453,7 +1481,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &635616329
 SpriteRenderer:
@@ -1749,7 +1784,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &693505128
 SpriteRenderer:
@@ -1920,7 +1962,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &746598625
 SpriteRenderer:
@@ -2224,7 +2273,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &972734792
 SpriteRenderer:
@@ -2364,7 +2420,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &1051592884
 SpriteRenderer:
@@ -2843,7 +2906,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &1505179263
 SpriteRenderer:
@@ -3139,7 +3209,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &1777042156
 SpriteRenderer:
@@ -3468,7 +3545,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 100
   TouchDamage: 10
-  Enem_Speed: 0
+  Speed: 0.3
+  MoveTime: 2
+  MaxX: 15
+  MinX: -16
+  MaxY: 9
+  MinY: -9
+  RandomDirX: 0
+  RandomDirY: 0
   PlayerEnergy: {fileID: 0}
 --- !u!212 &2017386175
 SpriteRenderer:

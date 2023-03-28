@@ -29,7 +29,6 @@ public class EnemyShootAttack : MonoBehaviour
             }
 
 
-
             if (ReadyToFire < FireRate)
             {
                 ReadyToFire += Time.deltaTime;
@@ -41,18 +40,6 @@ public class EnemyShootAttack : MonoBehaviour
             
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

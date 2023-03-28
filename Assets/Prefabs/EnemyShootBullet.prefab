@@ -138,4 +138,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   Force: 10
-  Damage: 30
+  Damage: 0
